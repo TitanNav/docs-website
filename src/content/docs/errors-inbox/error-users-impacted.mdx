@@ -25,7 +25,7 @@ For agents that don’t natively support adding a user identifier to telemetry, 
 
 ## Attribute conventions to capture users impacted [#attributes]
 There are multiple common conventions for naming end user attributes.
-First, we'll check for `enduser.id` according to the [OpenTelemetry standard](https://opentelemetry.io/docs/reference/specification/trace/semantic_conventions/span-general/#general-identity-attributes). Then we'll use the following attributes in order of priority:
+First, we'll check for `enduser.id` according to the [OpenTelemetry standard](https://opentelemetry.io/docs/specs/semconv/attributes-registry/enduser/). Then we'll use the following attributes in order of priority:
 
 * `userId`
 * `user` 
